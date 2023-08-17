@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя веб страница</title>
+    <link rel="stylesheet" href="05_style.css">
+    <link rel="stylesheet" href="boxmodel.css">
+    <link rel="stylesheet" href="links.css">
+</head>
+<body>
+<div class="containers">
+    <div class="info">
+    <img src="НГ карты.jpg" alt="Моя фотка" class="avatar">
+    <div class="info_text">
+    <h1>Дмитрий Андреев</h1>
+    <p>Я Дмитрий Андреев, учусь языку программирования <strong>HTML</strong> у <strong>Владилена Минина</strong></p>
+    <p>
+    Я люблю <em>учиться, путешествовать, заниматься спортов (особенно) и программировать.</em></p>
+    <div class="social"><hr><strong>Список социальных сетей:</strong><br>
+    <a href="http://vk.com/theandreev" target="_blank">Вконтакте</a> | <a href="https://www.youtube.com/@deadapefilms" target="_blank">Youtube</a></p></div>
+    </div>
+    </div>
+    <p>
+        <div class="work bg-red"> 
+        <h2>Опыт работы</h2>
+        <table class=table>
+        <!-- <thead> 
+            <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год работы</th>
+            </tr>
+</thead> -->
+        <tbody>
+            <tr>
+            <td>IGM</td>
+            <td>Frontend</td>
+            <td>2015-2016</td>
+            </tr>
+            <tr>
+            <td>Акелла</td>
+            <td>Backend</td>
+            <td>2016-2017</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>IT-специалист</td>
+                <td>2017-2019</td>
+            </tr>
+            <tr>
+                <td>youtube</td>
+                <td>Дизайнер</td>
+                <td>2019-2022</td>
+            </tr>
+        </tbody>
+        </table>
+    </p>
+    </div>
+    <p> <div class="hobby">
+        <h2>Мои хобби</h2>
+        <ol class="list">    
+        <li>Путешествия</li>
+        <li>Спорт</li>
+        <li>Компьтерные технологии</li>
+        <li>Читать книги</li>
+        <li>Изучать новое</li>
+        </ol>
+    </p>  
+    </div>
+    <div class="card">
+        <ul class="link-list">
+            <li>Один</li>
+            <li>Два</li>
+    </ul>
+    </div>
+    <p> <div class="for_me">
+        <h2>Связаться со мной</h2>
+        <form>
+            <div>
+                <label for="text">Ваше имя:</label>
+                <input type="text" placeholder="Введите имя">
+                <br>
+                <label for="email">Ваш email:</label>
+                <input type="email" placeholder="Введите email">
+                <br>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" placeholder="Введите сообщение" rows="5" cols="20"></textarea>
+                <br>
+            <button class="btn">Отправить!</button>
+            </div>
+        </form>
+    </div>
+    </p>
+</div>
+</body>
+</html>

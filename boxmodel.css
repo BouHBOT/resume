@@ -1,0 +1,9 @@
+.containers {
+    margin: auto;
+    width: 500px
+}
+.info_text {
+    background: rgb(251, 185, 251);
+    padding: 0px 5px 5px 5px;
+    border-radius: 8px;
+    }
